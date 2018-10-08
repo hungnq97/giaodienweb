@@ -1,0 +1,165 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 15px;
+	background: #f1f1f1;
+}
+img {
+	display: block;
+}
+
+#header {
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+#logo {
+	width: 30%;
+	height: auto;
+	margin: 18px 0;
+	float: left;
+}
+#header-img {
+	width: 70%;
+	float: right;
+	height: auto;
+}
+#main-menu{
+	background: #ED1C22;
+	height: auto;
+}
+#main-menu ul{
+	width: 1200px;
+	list-style: none;
+	width: 100%;
+}
+#main-menu ul li{
+	
+	display: inline-table;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	text-align: center;
+}
+.cate{
+	
+	width: 290px;
+	background: #000000;
+	color: white;
+	font-weight: bold;
+	margin-left: -40px;
+}
+#main-menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+}
+#main-menu ul li a:hover {
+	background: #f1f1f1;
+	color: red;
+
+}
+.clear {
+	clear:left;
+}
+#menu-left {
+	background: #f1f1f1;
+	height: 400px;
+	width: 290px;
+	float: left;
+	border: 1px solid #ccc;
+}
+#menu-left ul {
+	
+	padding:0;
+	list-style-type: none;
+	margin: 0;
+}
+#menu-left ul li {
+	width: auto;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 1em;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+#menu-left ul li a {
+
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	display: block;
+}
+#menu-left ul li:hover {
+	background: #cde2cd;
+}
+#slider {
+	width:898px;
+	float: right;
+}
+#slider img {
+	display: block;
+	height: 402px;
+}
+#divi{
+	width: 100%;
+	height: 10px;
+	clear: both;
+}
+#title-block{
+	background: #ED1C22;
+	height: 40px;
+
+}
+#title-block h3{
+	color: white;
+	font-weight: bold;
+	line-height: 40px;
+	margin: 0 1em;
+}
+#product-slider {
+	width: 100%;
+	height: 500px;
+}
+#product-box {
+	width: 290px;
+	text-align: center;
+	border: 1px solid #ccc;
+	margin-right: 8px;
+	float: left;
+	background: #fff;
+}
+#product-box img {
+	display: block;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+#product-box p{
+	padding: 0.1em 1em;
+}
+.price-product{
+	font-weight: bold;
+	font-size: 18px;
+	color: #ED1C22;
+	border: 1px solid #ccc;
+}
+button {
+	display: block;
+	background: #F0D115;
+	color:black;
+	font-weight: bold;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0px auto;
+	padding: 0px;
+	border: none;
+}
